@@ -11,6 +11,7 @@ As for the dataset we intend on using for our study, we will work on [Los Angele
 - Since the creation of the Black Lives Matter movement, was there a change in the trend of the overall arrests of African American people in L.A.?
 - How does the evolution of the trend of arrests of the other races differ from those of the African American people ?
 - Is there a difference in the number of arrestations between males and females African Americans ? What about after the Black Lives Matter movement ?
+- What are the crimes that African people are most arrested for in L.A ? Has there been a shift after the Black Lives Matter movement
 
 # 4. Proposed dataset
 The dataset is hosted by the city of Los Angeles. The organization has an open data platform and they update their information according the amount of data that is brought in.
@@ -18,6 +19,7 @@ The dataset is hosted by the city of Los Angeles. The organization has an open d
 It contains information regarding the arrestations for each day from 2010 to 2019, the type of crime, the sex, race and age of the arrested person, etc. 
 
 # 5. Methods
+Segmented regression analysis: we will perform different segmented regression analysis to assess the trend of arrests for the different cases above-metnioned. We will start for African Americans only and then for the other races together)
 
 
 # 6. Proposed timeline
