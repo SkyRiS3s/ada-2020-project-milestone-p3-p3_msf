@@ -11,7 +11,6 @@ As for the dataset we intend on using for our study, we will work on [Los Angele
 - Since the creation of the Black Lives Matter movement, was there a change in the trend of the overall arrests of African American people in L.A.?
 - How does the evolution of the trend of arrests of the other races differ from those of the African American people ?
 - Is there a difference in the number of arrestations between males and females African Americans ? What about after the Black Lives Matter movement ?
-- What are the crimes that African people are most arrested for in L.A ? Has there been a shift after the Black Lives Matter movement
 
 # 4. Proposed dataset
 The dataset is hosted by the city of Los Angeles. The organization has an open data platform and they update their information according the amount of data that is brought in.
@@ -19,13 +18,21 @@ The dataset is hosted by the city of Los Angeles. The organization has an open d
 It contains information regarding the arrestations for each day from 2010 to 2019, the type of crime, the sex, race and age of the arrested person, etc. 
 
 # 5. Methods
-Segmented regression analysis: we will perform different segmented regression analysis to assess the trend of arrests for the different cases above-metnioned. We will start for African Americans only and then for the other races together)
+Data collection and wrangling: We will load the data and we will drop the variables not useful for the analysis. Only the variables `arrest date`, `age`, `sex code`, `descent code` (that specifies the race) and `charge group code` are kept. 
 
+First analysis: A first general analysis of the data will also be performed to obtain a first insight into the dataset and to remove any missing values and eventual outliers. Also, the means of the arrests, before and after the creation of the Black Lives Matter movement will be compared. 
+
+Segmented regression analysis: The segmented regression analysis is the central method of our study. The disruptive event will be the strating point of the Black Lives Matter movement in July 2013. The arrest trends before and after this event will be compared. we will perform mainly two analysis. The first one will assess whtehter there is a change in the trend of the overall arrests of African American people in L.A. and it will be compared to the trends of our control group (i.e. all the oher races together). We will then check if there is a difference in the trends between males and females African Americans. To do so, a second regression analysis will be performed. 
+
+These are the principal steps we plan to do. Other questions might appear during the analysis. This is why we decided to keep, for the time being, the variables `age` and `charge group code`. 
 
 # 6. Proposed timeline
+Week 1 : Downloading the dataset and completing the first sanity checks. Data wrangling will be performed as well as the mean comparison. 
+Week 2 : All the segmented regression analysis will be carried out.
+Week 3: Wraping up the analysis and peparing the project presentation.
 
 # 7. Organization within the team
-A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.
+The first sanity checks will be performed together. Then, each member of the team will be in charge of a specific segmented regression analysis.
 
 # 8. Questions for TAs (optional)
-Add here any questions you have for us related to the proposed project.
+NONE
