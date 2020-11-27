@@ -29,7 +29,7 @@ These are the principal steps we plan to do. Other questions might appear during
 # 6. Proposed timeline
 Week 1 : Downloading the dataset and completing the first sanity checks. Data wrangling will be performed as well as the mean comparison. 
 Week 2 : All the segmented regression analysis will be carried out.
-Week 3: Wraping up the analysis and peparing the project presentation.
+Week 3 : Wraping up the analysis and peparing the project presentation.
 
 # 7. Organization within the team
 The first sanity checks will be performed together. Then, each member of the team will be in charge of a specific segmented regression analysis.
