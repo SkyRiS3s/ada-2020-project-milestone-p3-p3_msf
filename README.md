@@ -32,7 +32,11 @@ These are the principal steps we plan to do. Other questions might appear during
 - Week 3 : Wraping up the analysis and peparing the project presentation.
 
 # 7. Organization within the team
-The first sanity checks will be performed together. Then, each member of the team will be in charge of a specific segmented regression analysis.
+Saoud will start by doing the first sanity checks and the data wrangling. He will also perform the mean comparison.
+Fanny will focus on finding outliers within the dataset by using various methods seen in class (such as vizualisation, ...)
+Marjolaine will focus on the segmented regression analysis. 
+We will work tohgether on the interpretation of restults and on the video for the project.
+
 
 # 8. Questions for TAs (optional)
 NONE
