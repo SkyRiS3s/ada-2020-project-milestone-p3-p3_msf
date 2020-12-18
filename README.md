@@ -1,5 +1,5 @@
 # 1. Title
-The effect of the Black Lives Matter movement on the arrests of African American people in L.A.
+The effect of the Black Lives Matter movement on the arrestations of African American people in L.A.
 
 
 # 2. Abstract
@@ -9,7 +9,7 @@ As for the dataset we intend on using for our study, we will work on [Los Angele
 
 # 3. Research Questions
 - Since the creation of the Black Lives Matter movement, was there a change in the trend of the overall arrests of African American people in L.A.?
-- How does the evolution of the trend of arrests of the other races differ from those of the African American people ?
+- How does the evolution of the trend of arrests of White people differ from those of the African American people ?
 - Is there a difference in the number of arrestations between males and females African Americans ? What about after the Black Lives Matter movement ?
 
 # 4. Proposed dataset
@@ -18,13 +18,12 @@ The dataset is hosted by the city of Los Angeles. The organization has an open d
 It contains information regarding the arrestations for each day from 2010 to 2019, the type of crime, the sex, race and age of the arrested person, etc. 
 
 # 5. Methods
-Data collection and wrangling: We will load the data and we will drop the variables not useful for the analysis. Only the variables `arrest date`, `age`, `sex code`, `descent code` (that specifies the race) and `charge group code` are kept. 
+Data collection and wrangling: We will load the data and we will drop the variables not useful for the analysis. Only the variables `arrest date`, `sex code` and `descent code` (that specifies the race) are kept. 
 
 First analysis: A first general analysis of the data will also be performed to obtain a first insight into the dataset and to remove any missing values and eventual outliers. Also, the means of the arrests, before and after the creation of the Black Lives Matter movement will be compared. 
 
-Segmented regression analysis: The segmented regression analysis is the central method of our study. The disruptive event will be the strating point of the Black Lives Matter movement in July 2013. The arrest trends before and after this event will be compared. we will perform mainly two analysis. The first one will assess whtehter there is a change in the trend of the overall arrests of African American people in L.A. and it will be compared to the trends of our control group (i.e. all the oher races together). We will then check if there is a difference in the trends between males and females African Americans. To do so, a second regression analysis will be performed. 
+Segmented regression analysis: The segmented regression analysis is the central method of our study. The disruptive event will be the strating point of the Black Lives Matter movement in July 2013. The arrest trends before and after this event will be compared. We will perform mainly two analysis. The first one will assess whtehter there is a change in the trend of the overall arrests of African American people in L.A. and it will be compared to the trends of our control group (i.e. White people). We will then check if there is a difference in the trends between males and females African Americans. To do so, a second regression analysis will be performed. 
 
-These are the principal steps we plan to do. Other questions might appear during the analysis. This is why we decided to keep, for the time being, the variables `age` and `charge group code`. 
 
 # 6. Proposed timeline
 - Week 1 : Downloading the dataset and completing the first sanity checks. Data wrangling will be performed as well as the mean comparison. 
